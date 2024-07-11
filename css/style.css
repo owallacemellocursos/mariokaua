@@ -55,16 +55,16 @@
 .clouds {
     
     position: absolute;
-    width: 150px;
-    margin-top: 180px;
+    width: 60px;
+    margin-top: 330px;
     animation: clouds-animation 5s infinite linear;
 }
 
 .cloudsUm {
     
     position: absolute;
-    width: 150px;
-    margin-top: 180px;
+    width: 60px;
+    margin-top: 330px;
     animation: clouds-animation 9s infinite linear;
 
 }
