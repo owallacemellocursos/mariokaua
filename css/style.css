@@ -55,28 +55,20 @@
 .clouds {
     
     position: absolute;
-    width: 450px;
-    padding-top: 50px;
-    animation: clouds-animation 20s infinite linear;
-
-}
-
-.dog {
-    position: absolute;
-    width: 110px;
+    width: 150px;
+    margin-top: 180px;
     animation: clouds-animation 5s infinite linear;
-    margin-top: 280px;
-
-
 }
-.dog2 {
+
+.cloudsUm {
+    
     position: absolute;
-    width: 110px;
-    animation: clouds-animation 4s infinite linear;
-    margin-top: 280px;
-
+    width: 150px;
+    margin-top: 180px;
+    animation: clouds-animation 9s infinite linear;
 
 }
+
 
 @keyframes pipe-animation {
     from {
