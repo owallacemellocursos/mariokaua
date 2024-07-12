@@ -51,21 +51,13 @@
 }
 
 
-.nuvem {
 
-
-    position: absolute;
-    margin-top: 50px;
-    width: 500px;
-    animation: nuvem-animation 20s infinite linear;
-
-}
 .clouds {
     
     position: absolute;
     width: 90px;
     margin-top: 300px;
-    animation: clouds-animation 6s infinite linear;
+    animation: clouds-animation 5s infinite linear;
     filter: contrast(200%);
     
 }
@@ -73,9 +65,9 @@
 .cloudsUm {
     
     position: absolute;
-    width: 90px;
-    margin-top: 300px;
-    animation: clouds-animation 8s infinite linear;
+    width: 400px;
+    margin-top: 50px;
+    animation: clouds-animation 20s infinite linear;
     filter: contrast(200%);
 
 
