@@ -51,21 +51,33 @@
 }
 
 
+.nuvem {
 
+
+    position: absolute;
+    margin-top: 50px;
+    width: 500px;
+    animation: nuvem-animation 20s infinite linear;
+
+}
 .clouds {
     
     position: absolute;
-    width: 60px;
-    margin-top: 330px;
-    animation: clouds-animation 5s infinite linear;
+    width: 90px;
+    margin-top: 300px;
+    animation: clouds-animation 6s infinite linear;
+    filter: contrast(200%);
+    
 }
 
 .cloudsUm {
     
     position: absolute;
-    width: 60px;
-    margin-top: 330px;
-    animation: clouds-animation 9s infinite linear;
+    width: 90px;
+    margin-top: 300px;
+    animation: clouds-animation 8s infinite linear;
+    filter: contrast(200%);
+
 
 }
 
@@ -126,7 +138,7 @@
     }
 }
 
-@keyframes dog-animation {
+@keyframes nuvem-animation {
 
     from {
 
